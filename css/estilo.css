@@ -1,0 +1,182 @@
+
+header{
+    background: #07322F;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+
+}
+.listasExternas{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin-left: 300px;
+}
+.listasExternas a{
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    
+}
+.menu {
+    display: inline-block;
+    border-radius: 50px;
+    border: 20px solid #FFF;
+    background: #FFF;
+    padding-right: 30px;
+    padding-left: 30px;
+   
+}
+a :hover {
+    background-color:black;
+    border: 20px solid black;
+    color: white;
+    
+}
+
+#menuElegido{
+    background-color: black;
+    color: white;
+    border: 20px solid black;
+}
+
+
+.footer2{
+    background: #07322F;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    display: flex;
+    gap:200px;
+}
+.contactoIconos img{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: fill;
+}
+.contactoIconos img :hover{
+    background-color:#07322F;
+    
+}
+.textoFooter{
+    color: #FFF;
+    text-align: center;
+    font-family: Gowun Batang;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.main2{
+    background-image: url(https://media.istockphoto.com/id/1142539858/es/foto/almacenamiento-de-big-data-y-representaci%C3%B3n-de-computaci%C3%B3n-en-nube-c%C3%B3digo-de-programaci%C3%B3n.jpg?s=612x612&w=0&k=20&c=ITzQt5fqF94Tvc2lZI5oGpM5LdIa0kPkNh7kCCHfRrs=);
+    height: 700px;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #07322F;
+    
+
+}
+
+.portada{
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.482);
+    width: 40%;
+    height: 40%;
+    padding-left: 200px;
+
+}
+.nombrePortada{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    
+}
+#textoPortada{
+    font-size: 20px;
+}
+
+.contenidosDatos{
+    display: flex;
+    gap: 50px;
+    
+}
+.fotoYo{
+    background-color:rgba(255, 255, 255, 0.482) ;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.fotoYo img{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.datosYo{
+    background-color:rgba(255, 255, 255, 0.482) ;
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 100px;
+    color: #07322F;
+
+}
+.edu{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.datosH{
+    float: right;
+    margin-left: 40px;
+    
+    
+
+}
+.lenguajes{
+    background-color:rgba(255, 255, 255, 0.482) ;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #07322F;
+    float: top;
+    width: 300px;
+    height: 190px;
+    margin-bottom: 20px;
+
+}
+.idiomas{
+    background-color:rgba(255, 255, 255, 0.482) ;
+    border-radius: 50px;
+  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #07322F;
+    float: bottom;
+    width: 300px;
+    height: 190px;
+
+}
