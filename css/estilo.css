@@ -18,7 +18,7 @@ header{
     text-decoration: none;
     text-align: center;
     color: black;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family:  'Times New Roman', Times, serif;
     font-size: 20px;
     
 }
@@ -31,7 +31,7 @@ header{
     padding-left: 30px;
    
 }
-a :hover {
+ul a :hover {
     background-color:black;
     border: 20px solid black;
     color: white;
@@ -48,38 +48,42 @@ a :hover {
 .footer2{
     background: #07322F;
     width: 100%;
-    height: 90px;
-    display: flex;
+    height: 120px;
     justify-content: center;
     align-items: center;
     cursor: default;
     display: flex;
-    gap:200px;
+    overflow: hidden;
+}
+.contactoIconos{
+    height: 40%;
+    padding-bottom: 4ex;
+    padding-left: 20vw;
 }
 .contactoIconos img{
-    width: 80px;
-    height: 50px;
+    overflow: hidden;
+    max-width: 20%;
     border-radius: 50%;
     background-color: white;
     object-fit: fill;
 }
-.contactoIconos img :hover{
-    background-color:#07322F;
-    
-}
+
+
 .textoFooter{
     color: #FFF;
     text-align: center;
-    font-family: Gowun Batang;
-    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     
 }
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .main2{
-    background-image: url(https://media.istockphoto.com/id/1142539858/es/foto/almacenamiento-de-big-data-y-representaci%C3%B3n-de-computaci%C3%B3n-en-nube-c%C3%B3digo-de-programaci%C3%B3n.jpg?s=612x612&w=0&k=20&c=ITzQt5fqF94Tvc2lZI5oGpM5LdIa0kPkNh7kCCHfRrs=);
+    background-image: url(fotoCodigo.jpg);
     height: 700px;
     margin: 0;
     background-size: cover;
@@ -112,22 +116,44 @@ a :hover {
 .contenidosDatos{
     display: flex;
     gap: 50px;
+    flex-direction: column;
+    
     
 }
 .fotoYo{
     background-color:rgba(255, 255, 255, 0.482) ;
     border-radius: 50px;
     width: 500px;
-    height: 500px;
+    height: 480px;
     float: left;
+    padding-bottom: 20px;
 }
+
 .fotoYo img{
-    width: 400px;
-    height: 400px;
-    padding-left: 50px;
+    overflow: hidden;
+    max-width: 75%;
+    padding-left: 65px;
     padding-top: 50px;
+    align-content: center;
+    float: center;
+   
     
 }
+ul{
+    list-style: none;
+
+}
+.Haa{
+    overflow: hidden;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 110px;
+    align-content: center;
+    float: center;
+
+}
+
 .datosYo{
     background-color:rgba(255, 255, 255, 0.482) ;
     border-radius: 50px;
@@ -139,11 +165,13 @@ a :hover {
     padding-top: 100px;
     color: #07322F;
 
+    
+
 }
 .edu{
     font-size: 20px;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 15px;
     margin-bottom: 20px;
 }
@@ -154,10 +182,14 @@ a :hover {
     
 
 }
+.datosH h3{
+    font-size:x-large;
+    text-align: center;
+}
 .lenguajes{
     background-color:rgba(255, 255, 255, 0.482) ;
     border-radius: 50px;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 30px;
     color: #07322F;
@@ -165,13 +197,16 @@ a :hover {
     width: 300px;
     height: 190px;
     margin-bottom: 20px;
+    
 
+}
+.datosH ul{
+    padding-left: 13ch;
 }
 .idiomas{
     background-color:rgba(255, 255, 255, 0.482) ;
     border-radius: 50px;
-  
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 30px;
     color: #07322F;
