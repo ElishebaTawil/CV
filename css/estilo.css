@@ -1,9 +1,15 @@
-
+                                   /* comienza header */
+body{
+    width: 100%;
+    height: 100%;
+}
 header{
     background: #07322F;
     width: 100%;
     height: 20%;
     display: flex;
+    margin-top: 0%;
+   
     
 
 }
@@ -12,7 +18,11 @@ header{
     gap:30px;
     justify-content: center;
     margin-left: 19em;
+    flex-wrap: wrap;
+    
+    
 }
+
 .listasExternas a{
     font-size: medium;
     text-decoration: none;
@@ -21,7 +31,10 @@ header{
     font-family:  'Times New Roman', Times, serif;
     font-size: 1,99vw;
     
+    
+    
 }
+
 .menu {
     display: inline-block;
     border-radius: 50px;
@@ -30,7 +43,45 @@ header{
     padding-right: 30px;
     padding-left: 30px;
    
+   
+   
 }
+@media screen and (max-width: 992px) {
+    .listasExternas {
+        flex-direction: column; /* Cambiar a disposición en columnas */
+        align-items: center; /* Centrar elementos verticalmente */
+        gap: 10px;
+            
+    }
+    .listasExternas a{
+        font-size: 1,5vw;
+       
+    }
+    .menu{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listasExternas {
+        flex-direction: column; /* Cambiar a disposición en columnas */
+        align-items: center; /* Centrar elementos verticalmente */
+        gap: 10px;
+            
+    }
+    .listasExternas a{
+        font-size: 1,5vw;
+        border: 10px solid #07322F;
+
+    }
+    .menu{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
 ul a :hover {
     background-color:black;
     border: 20px solid black;
@@ -42,18 +93,25 @@ ul a :hover {
     background-color: black;
     color: white;
     border: 20px solid black;
-}
+}                                             /* termina header */
 
-
-.footer2{
+                                               /* comienza footer */
+footer{
+    margin-bottom: 0%;
     background: #07322F;
     width: 100%;
+   
+
+}                                               
+.footer2{ 
     height: 6em;
     justify-content: center;
     align-items: center;
     cursor: default;
     display: flex;
     overflow: hidden;
+    
+    
 }
 .contactoIconos{
     height: 40%;
@@ -77,14 +135,19 @@ ul a :hover {
     font-style: normal;
     line-height: normal;
     
-}
-main{
+}                                                    /* termina header */
+main{                                                  /* comienza main */
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+   
+
     
 }
 
 .main2{
     background-image: url(../img/fotoCodigo.jpg);
+    opacity: 80%;
     height: 700px;
     margin: 0;
     background-size: cover;
@@ -92,127 +155,170 @@ main{
     justify-content: center;
     align-items: center;
     color: #07322F;
-    
+    position: relative;
+    margin-top: 0%;
+    justify-content: center;    
 
-}
+}                                                  /* index */
 
 .portada{
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.482);
     width: 40%;
     height: 40%;
-    padding-left: 200px;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    position: relative;
+    text-align: center;
 
 }
-.nombrePortada{
-    font-size: 50px;
+.nombrePortada {
+    font-size: 3.125rem; 
     font-weight: 600;
-    padding-top: 30px;
+    padding-top: 1.875rem; 
+  }
+  
+  #textoPortada {
+    font-size: 1.25rem; 
+  }                                  
+                                            /* index */
+      
+                                                    
+@media screen and (max-width:  992px) {
+    
+    .nombrePortada{
+        font-size: 2.95rem;
+        font-weight: 400;
+
+
+    }
+    #textoPortada{
+        font-size: 0.75rem; 
+
+    }
+    .fotoYo{
+        display: none;
+    }
+    .fotoYo img{
+        display: none;
+    }
+    .datosYo{
+        width: 21.25rem;
+        height: 15rem;
+        padding-top: 4rem;
+        margin-right: 1rem;
+        
+
+        
+    }
     
 }
-#textoPortada{
-    font-size: 20px;
-}
 
+                                      /*sobre mi*/
+                                                 
 .contenidosDatos{
     display: flex;
     gap: 50px;
     flex-direction: column;
     
     
+    
 }
 .fotoYo{
     background-color:rgba(255, 255, 255, 0.482) ;
     border-radius: 50px;
-    width: 500px;
-    height: 480px;
+    width: 31.25rem;
+    height: 30rem;
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .fotoYo img{
     overflow: hidden;
     max-width: 75%;
-    padding-left: 65px;
-    padding-top: 50px;
+    padding-left: 4.0625rem;
+    padding-top: 3.125rem;
     align-content: center;
     float: center;
-   
+
     
 }
+
 ul{
     list-style: none;
 
 }
-.Haa{
+.Haa {
     overflow: hidden;
     max-width: 100%;
-    padding-left: 30px;
-    padding-right: 40px;
-    padding-top: 110px;
+    padding-left: 1.875rem;
+    padding-right: 2.5rem;
+    padding-top: 6.875rem;
     align-content: center;
     float: center;
-
-}
-
-.datosYo{
-    background-color:rgba(255, 255, 255, 0.482) ;
-    border-radius: 50px;
-    width: 500px;
-    height: 400px;
+  }
+  
+  .datosYo {
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 3.125rem;
+    width: 31.25rem;
+    height: 25rem;
     float: right;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     color: #07322F;
-
-    
-
-}
-.edu{
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-}
-.datosH{
+  }
+  
+  .edu {
+    font-size: 1.25rem;
+    margin-top: 1.875rem;
+    margin-left: 0.3125rem;
+    margin-right: 0.9375rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .datosH {
+    margin-left: 2.5rem;
     float: right;
-    margin-left: 40px;
     
-    
-
-}
-.datosH h3{
-    font-size:x-large;
+  }
+  .datosH ul{
     text-align: center;
-}
-.lenguajes{
-    background-color:rgba(255, 255, 255, 0.482) ;
-    border-radius: 50px;
+
+  }
+  
+  .datosH h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .lenguajes {
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 3.125rem;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
     color: #07322F;
+    width: 18.75rem;
+    height: 11.875rem;
+    margin-bottom: 1.25rem;
     float: top;
-    width: 300px;
-    height: 190px;
-    margin-bottom: 20px;
-    
-
-}
-.datosH ul{
-    padding-left: 13ch;
-}
-.idiomas{
-    background-color:rgba(255, 255, 255, 0.482) ;
-    border-radius: 50px;
+  }
+  
+  .datosH ul {
+    padding-left: 0.8125rem;
+  }
+  
+  .idiomas {
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 3.125rem;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
     color: #07322F;
+    width: 18.75rem;
+    height: 11.875rem;
     float: bottom;
-    width: 300px;
-    height: 190px;
-
-}
+  }
+  
