@@ -69,9 +69,15 @@ label{
         padding-right: 10px;
         padding-left: 10px;
     }
-  body{
-    width:100%;
-  }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
 }
 
 /* -----------------------------------------menu hamburguesa-------------------------*/
@@ -146,9 +152,6 @@ label{
         position: relative;
         padding-top: 200px;
     }
-  body{
-    width:100%;
-  }
     
     
     
@@ -225,19 +228,16 @@ main{                                                  /* comienza main */
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     width: 100%;
-    
-    
+    background-image: url(../img/fotoCodigo.jpg);
+    opacity: 80%;
+    background-size: cover;
    
-
-    
 }
 
 .main2{
-    background-image: url(../img/fotoCodigo.jpg);
-    opacity: 80%;
+    
     height: 45rem;
     margin: 0;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
