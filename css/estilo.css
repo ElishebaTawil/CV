@@ -138,10 +138,12 @@ label{
         justify-content: center;
     }
     .main2{
-        height: 700px;
+        height: 900px;
         align-items: center;
         position: relative;
+        padding-top: 200px;
     }
+    
     
     
     
