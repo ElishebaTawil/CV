@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Mi curriculum</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="menu">
+            <label for="menu"> ☰ </label>
+            <ul class="listasExternas">
+                <a href="index.html"><div class="menu" >Inicio</div></a>
+                <a href="sobreMi.html"><div class="menu">Datos Personales</div></a>
+                <a href="educacion.html"><div class="menu">Educación</div></a>
+                <a href="habilidades.html"><div class="menu">Habilidades</div></a>
+                <a href="juego.html"><div class="menu" id="menuElegido">Juego</div></a>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+
+    <main>
+        <div class="intro">
+            <p>MEMOTEST!: Encuentra las dos fotos iguales junto con la seccion a la que pertenecen</p>
+
+        </div>
+        <seccion class="main2 " style="height: 60rem;">
+            
+            
+
+            <div class="memotest">
+                <!--card1-->
+                <div class="card" id="H" onclick="flipCard(this)">
+                  <img src="img/colegas-dando-golpe-puno.jpg" alt="habilidades">
+                </div>
+                <!--card2-->
+                <div class="card" id="Y" onclick="flipCard(this)">
+                  <img src="img/foto carav2.jpg.jpeg" alt="yo">
+                </div>
+                <!--card3-->
+                <div class="card" id="E" onclick="flipCard(this)">
+                    <img src="img/mujer-irreconocible-sentada-escritorio-interior-escribiendo-planificadorv2.jpg" alt="educacion">
+                </div>
+                <!--card4-->
+                <div class="card" id="Y" onclick="flipCard(this)">
+                    <img src="img/foto carav2.jpg.jpeg" alt="yo">
+                </div>
+                <!--card5-->
+                <div class="card" id="E" onclick="flipCard(this)">
+                    <img src="img/mujer-irreconocible-sentada-escritorio-interior-escribiendo-planificadorv2.jpg" alt="educacion">
+                </div>
+                <!--card6-->
+                <div class="card" id="H" onclick="flipCard(this)">
+                    <img src="img/colegas-dando-golpe-puno.jpg" alt="habilidades">
+                </div>
+                
+                <!--card7-->    
+                <div class="card" id="Y" onclick="flipCard(this)">
+                    <img src="img/texto-datos.jpeg" alt="yo">
+                </div>
+                
+                <!--card8-->
+                <div class="card" id="H" onclick="flipCard(this)">
+                    <img src="img/texto-habilidades.jpeg" alt="habilidades">
+                </div>
+                
+                <!--card9-->
+                <div class="card" id="E" onclick="flipCard(this)">
+                    <img src="img/texto-educacion.jpeg" alt="educacion">
+                </div>
+                
+                
+              </div>
+            
+        </section>
+        
+    </main>
+
+        <footer>
+            <section class="footer2">
+
+                <div class="contactoIconos">
+                    <a href="mailto:sabuttawil@gmail.com" target="_blank" >
+                        <img src="img/gmail_104069.png" alt="icono gmail"></a>   
+                </div>
+
+                <div class="textoFooter">
+                    <h6>© Elisheba Tawil</h6>
+                </div>
+
+                <div class="contactoIconos">
+                    <a href="https://api.whatsapp.com/send?phone=5491134989592" target="_blank">
+                        <img src="img/whatsapp_1384023.png" alt="icono whatsapp"></a>
+                </div> 
+
+            </section>
+             
+        </footer>      
+        <script src="script.js"></script>       
+</body>
+</html>
